@@ -35,7 +35,9 @@ const Portfolio = () => {
         <div className={classes.grid}>
             {loading // Skeleton loader
                 ? Array.from({ length: 8 }, (_, index) => (
-                      <div className={classes.cardSkeleton} key={index}></div>
+                      <div className={classes.cardSkeleton} key={index}>
+                          <div className={classes.shimmer}></div>
+                      </div>
                   ))
                 : images.map((imageURL, index) => (
                       <div

@@ -36,7 +36,9 @@ const MusicCovers = () => {
             {loading
                 ? // Skeleton loader
                   Array.from({ length: 9 }, (_, index) => (
-                      <div className={classes.cardSkeleton} key={index}></div>
+                      <div className={classes.cardSkeleton} key={index}>
+                          <div className={classes.shimmer}></div>
+                      </div>
                   ))
                 : // Actual images
                   images.map((imageURL, index) => (
