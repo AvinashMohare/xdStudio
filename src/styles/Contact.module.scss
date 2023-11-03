@@ -1,7 +1,6 @@
 .rootContact {
     height: 100%;
     width: 100%;
-    // background-color: red;
 
     display: flex;
     justify-content: center;
@@ -10,21 +9,20 @@
     .container {
         height: fit-content;
         width: 40%;
-        // background-color: yellow;
+        min-width: 650px;
 
         display: flex;
 
         .containerLeft {
             width: 60%;
             height: 100%;
-            // background-color: pink;
 
             h2 {
                 color: #ffffff;
                 font-family: "Input Mono Normal Extra Light",
                     "Input Mono Normal Extra Light", monospace;
                 line-height: 1.4 !important;
-                font-size: 30px;
+                font-size: var(--fs-l);
                 font-weight: bold;
             }
 
@@ -32,7 +30,7 @@
                 color: #ffffff;
                 font-family: Barlow, sans-serif;
                 line-height: 1.7 !important;
-                font-size: 18px;
+                font-size: var(--fs-med);
 
                 margin: 1em 0;
             }
@@ -70,7 +68,7 @@
 
                         span {
                             height: fit-content;
-                            font-size: 18px;
+                            font-size: var(--fs-med);
                             color: #ffffff;
                         }
                     }
