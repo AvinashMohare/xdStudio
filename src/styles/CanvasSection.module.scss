@@ -1,0 +1,10 @@
+.grid {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    .card {
+        aspect-ratio: 1/1;
+        background-size: cover;
+        background-position: center;
+    }
+}

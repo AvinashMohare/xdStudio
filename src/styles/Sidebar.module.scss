@@ -1,0 +1,84 @@
+.rootSidebar {
+    // background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+
+    .container {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+        .name {
+            // height: 50px;
+            width: 100%;
+
+            p {
+                font-family: "Roboto", sans-serif;
+                font-family: "RocknRoll One", sans-serif;
+                font-size: 3.02rem;
+                font-weight: 900;
+
+                // background-image: url("https://firebasestorage.googleapis.com/v0/b/xdstudio.appspot.com/o/assets%2Fstudio%2Fbackgroung-image.png?alt=media&token=df423498-f636-466b-a652-2ac9d2608bbf&_gl=1*1ly91d6*_ga*NTEzOTQ4MDQwLjE2NzQ4NTEwODc.*_ga_CW55HF8NVT*MTY5Nzk1ODg1Mi4xNzguMS4xNjk3OTY0MjUxLjYwLjAuMA..");
+                background-image: url("../assets/backgroung-image.png");
+                background-size: cover;
+                background-position: center;
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+
+                text-align: center;
+            }
+        }
+
+        .barcontainer {
+            a {
+                text-decoration: none;
+            }
+            .item {
+                list-style: none;
+                text-align: center;
+                margin: 60px;
+
+                font-size: 1.2rem;
+                font-weight: 500;
+
+                color: #fff;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .socials {
+                // width: 100%;
+                // height: fit-content;
+
+                .appContainer {
+                    // width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .app {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .appName {
+                            height: fit-content;
+                            width: 30px;
+                            margin: 0 0.6rem;
+                            transition: all 0.2s ease;
+                            &:hover {
+                                cursor: pointer;
+                                scale: 1.2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
