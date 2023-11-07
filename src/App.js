@@ -6,6 +6,7 @@ import MusicCovers from "./pages/musicCovers";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
+import Header from "./components/header";
 
 function App() {
     return (
@@ -14,6 +15,11 @@ function App() {
                 <div className={classes.sidebar}>
                     <Sidebar />
                 </div>
+
+                <div className={classes.header}>
+                    <Header />
+                </div>
+
                 <div className={classes.canvas}>
                     <Routes>
                         <Route path="/" element={<Portfolio />}></Route>

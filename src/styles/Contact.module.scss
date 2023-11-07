@@ -77,3 +77,19 @@
         }
     }
 }
+
+@media screen and (max-width: 1720px) {
+    .rootContact {
+        .container {
+            .containerRight {
+                .socials {
+                    margin: 13px 0;
+                    .app {
+                        width: 37px;
+                        height: 37px;
+                    }
+                }
+            }
+        }
+    }
+}

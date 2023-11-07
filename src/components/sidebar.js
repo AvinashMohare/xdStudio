@@ -19,7 +19,7 @@ const Sidebar = () => {
                     </Link>
 
                     <Link to="/musicCovers">
-                        <p className={classes.item}>Music Cover / Album Arts</p>
+                        <p className={classes.item}>Music Cover & Album Arts</p>
                     </Link>
 
                     <Link to="/about">
