@@ -35,3 +35,9 @@
         background-position: -200% 0;
     }
 }
+
+@media screen and (max-width: 930px) {
+    .grid {
+        grid-template-columns: auto auto;
+    }
+}
