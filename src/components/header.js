@@ -53,23 +53,39 @@ const Header = () => {
                         <div className={classes.appContainer}>
                             <div className={classes.app}>
                                 <div className={classes.appName}>
-                                    <Fiverr height="100%" width="100%" />
+                                    <a
+                                        href="https://www.fiverr.com/purveshxd?public_mode=true"
+                                        target="__blank_"
+                                    >
+                                        <Fiverr height="100%" width="100%" />
+                                    </a>
                                 </div>
 
                                 <div className={classes.appName}>
-                                    <Instagram height="100%" width="100%" />
+                                    <a
+                                        href=" https://www.instagram.com/xd.studio_/"
+                                        target="__blank_"
+                                    >
+                                        <Instagram height="100%" width="100%" />
+                                    </a>
                                 </div>
 
                                 <div className={classes.appName}>
-                                    <Gmail height="100%" width="100%" />
+                                    <a
+                                        href="mailto:do.purveshxd@gmail.com"
+                                        target="__blank_"
+                                    >
+                                        <Gmail height="100%" width="100%" />
+                                    </a>
                                 </div>
 
-                                {/* <div className={classes.appName}>
-                                    <Links height="100%" width="100%" />
-                                </div> */}
-
                                 <div className={classes.appName}>
-                                    <Twitter height="100%" width="100%" />
+                                    <a
+                                        href=" https://x.com/xdpurvesh?t=EW-OwouoJrDl8JxwHHGcjw&s=08"
+                                        target="__blank_"
+                                    >
+                                        <Twitter height="100%" width="100%" />
+                                    </a>
                                 </div>
                             </div>
                         </div>

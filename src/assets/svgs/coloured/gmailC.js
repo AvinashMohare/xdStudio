@@ -1,7 +1,5 @@
 const GmailC = () => {
-    return (
-        
-    );
+    return <p>hii</p>;
 };
 
 export default GmailC;
