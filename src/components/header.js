@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import classes from "../styles/Header.module.scss";
 import { Link } from "react-router-dom";
 
-import Twitter from "../assets/svgs/twitter";
-import Instagram from "../assets/svgs/instagram";
-import Fiverr from "../assets/svgs/fiverr";
-import Gmail from "../assets/svgs/gmail";
+import Twitter from "../assets/svgs/bnw/twitter";
+import Instagram from "../assets/svgs/bnw/instagram";
+import Fiverr from "../assets/svgs/bnw/fiverr";
+import Gmail from "../assets/svgs/bnw/gmail";
 
 const Header = () => {
     const [active, setActive] = useState(false);

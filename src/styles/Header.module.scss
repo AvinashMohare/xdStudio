@@ -6,7 +6,7 @@
     .container {
         .wrapper {
             width: 100%;
-            padding: 15px 40px;
+            padding: 16px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -30,8 +30,8 @@
             }
 
             .hamburber {
-                width: 30px;
-                height: 3px;
+                width: 27px;
+                height: 1.5px;
                 background: #fff;
                 border-radius: 5px;
                 box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
@@ -40,29 +40,29 @@
                 &::before {
                     content: "";
                     position: absolute;
-                    width: 30px;
-                    height: 3px;
+                    width: 27px;
+                    height: 1.5px;
                     background: #fff;
                     border-radius: 5px;
                     transition: all 0.5s ease-in-out;
-                    transform: translateY(-10px);
+                    transform: translateY(-7px);
                 }
 
                 &::after {
                     content: "";
                     position: absolute;
-                    width: 30px;
-                    height: 3px;
+                    width: 27px;
+                    height: 1.5px;
                     background: #fff;
                     border-radius: 5px;
                     transition: all 0.5s ease-in-out;
-                    transform: translateY(10px);
+                    transform: translateY(7px);
                 }
             }
 
             .activeHamburger {
-                width: 30px;
-                height: 3px;
+                width: 27px;
+                height: 1.5px;
                 border-radius: 5px;
                 transform: translateX(-50px);
                 background: transparent;
@@ -71,8 +71,8 @@
                 &::before {
                     content: "";
                     position: absolute;
-                    width: 30px;
-                    height: 3px;
+                    width: 27px;
+                    height: 1.5px;
                     background: #fff;
                     border-radius: 5px;
                     transition: all 0.5s ease-in-out;
@@ -82,8 +82,8 @@
                 &::after {
                     content: "";
                     position: absolute;
-                    width: 30px;
-                    height: 3px;
+                    width: 27px;
+                    height: 1.5px;
                     background: #fff;
                     border-radius: 5px;
                     transition: all 0.5s ease-in-out;

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import classes from "../styles/Sidebar.module.scss";
-import Fiverr from "../assets/svgs/fiverr";
-import Instagram from "../assets/svgs/instagram";
-import Gmail from "../assets/svgs/gmail";
-import Links from "../assets/svgs/chain";
-import Twitter from "../assets/svgs/twitter";
+import Fiverr from "../assets/svgs/bnw/fiverr";
+import Instagram from "../assets/svgs/bnw/instagram";
+import Gmail from "../assets/svgs/bnw/gmail";
+import Links from "../assets/svgs/bnw/chain";
+import Twitter from "../assets/svgs/bnw/twitter";
 const Sidebar = () => {
     return (
         <div className={classes.rootSidebar}>

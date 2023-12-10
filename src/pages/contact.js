@@ -1,8 +1,8 @@
 import classes from "../styles/Contact.module.scss";
-import Instagram from "../assets/svgs/instagram";
-import Fiverr from "../assets/svgs/fiverr";
-import Twitter from "../assets/svgs/twitter";
-import Gmail from "../assets/svgs/gmail";
+import Instagram from "../assets/svgs/bnw/instagram";
+import Fiverr from "../assets/svgs/bnw/fiverr";
+import Twitter from "../assets/svgs/bnw/twitter";
+import Gmail from "../assets/svgs/bnw/gmail";
 
 const Contact = () => {
     return (
